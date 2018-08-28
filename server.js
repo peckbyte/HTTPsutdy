@@ -11,12 +11,27 @@ http.createServer(function (request, response) {
     }
 
     if (request.url === '/script.js') {
-    response.writeHead(200, {
-        'Content-Type': 'text/javascript',
-        'Cache-Control': 'max-age=200',
-    })
-    response.end('console.log("script load")')
-}
+        const etag = request
+        if (etag === '777') {
+            response.writeHead(304, {
+                'Content-Type': 'text/javascript',
+                'Cache-Control': 'max-age=20000000, no-cache',
+                'Last-Modified': '123',
+                'Etag': '777',
+            })
+            response.end('console.log("304")')
+        } else {
+            response.writeHead(200, {
+                'Content-Type': 'text/javascript',
+                'Cache-Control': 'max-age=20000000, no-cache',
+                'Last-Modified': '123',
+                'Etag': '777',
+            })
+            response.end('console.log("200")')
+        }
+    }
+
+
 }).listen(8888)
 
 console.log('server listening 88888')
