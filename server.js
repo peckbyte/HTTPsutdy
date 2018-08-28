@@ -11,7 +11,7 @@ http.createServer(function (request, response) {
     }
 
     if (request.url === '/script.js') {
-        const etag = request
+        const etag = request.headers['if-none-match']
         if (etag === '777') {
             response.writeHead(304, {
                 'Content-Type': 'text/javascript',
