@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87fa8004-a364-4c1c-9c95-d07e3c6909f5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/connect/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/connect/test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSP/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/CSP/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSP/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/CSP/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redirect/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/redirect/server.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,8 +19,17 @@
       <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/connect/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="12" column="25" selection-end-line="25" selection-end-column="37" />
+            <state relative-caret-position="330">
+              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/connect/test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="331">
+              <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -31,6 +41,38 @@
               <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cookie/test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CSP/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/redirect/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-8">
+              <caret line="14" column="10" lean-forward="true" selection-end-line="27" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/redirect/test.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
@@ -52,19 +94,10 @@
         </entry>
       </file>
       <file leaf-file-name="test.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/connect/test.html">
+        <entry file="file://$PROJECT_DIR$/CSP/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="12" lean-forward="true" selection-end-line="17" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cookie/test.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+            <state relative-caret-position="256">
+              <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -81,6 +114,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -91,8 +127,11 @@
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/cookie/test.html" />
         <option value="$PROJECT_DIR$/cookie/server.js" />
-        <option value="$PROJECT_DIR$/connect/test.html" />
         <option value="$PROJECT_DIR$/connect/server.js" />
+        <option value="$PROJECT_DIR$/connect/test.html" />
+        <option value="$PROJECT_DIR$/redirect/server.js" />
+        <option value="$PROJECT_DIR$/CSP/server.js" />
+        <option value="$PROJECT_DIR$/CSP/test.html" />
       </list>
     </option>
   </component>
@@ -135,6 +174,16 @@
               <item name="HTTPstudy1" type="462c0819:PsiDirectoryNode" />
               <item name="cookie" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="HTTPstudy1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HTTPstudy1" type="462c0819:PsiDirectoryNode" />
+              <item name="CSP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HTTPstudy1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HTTPstudy1" type="462c0819:PsiDirectoryNode" />
+              <item name="redirect" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -151,6 +200,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CSP" />
+      <recent name="$PROJECT_DIR$/redirect" />
       <recent name="$PROJECT_DIR$/connect" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -186,7 +237,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21709000" />
+    <option name="totallyTimeSpent" value="29094000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="828" extended-state="0" />
@@ -194,11 +245,12 @@
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Command Line Tools Console" weight="0.32968536" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" weight="0.32969698" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.374829" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2167382" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.374829" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2167382" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24964234" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="right" id="Database" />
@@ -250,15 +302,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/connect/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="12" column="25" selection-end-line="25" selection-end-column="37" />
+        <state relative-caret-position="330">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/connect/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="12" lean-forward="true" selection-end-line="17" selection-end-column="7" />
+        <state relative-caret-position="331">
+          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redirect/test.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redirect/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="14" column="10" lean-forward="true" selection-end-line="27" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSP/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSP/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
         </state>
       </provider>
     </entry>

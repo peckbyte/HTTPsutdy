@@ -1,24 +1,22 @@
 const http = require('http')
 const fs = require('fs')
-http.createServer(function (request, response) {
-    console.log('request come', request)
 
-    const host = request.headers.host
+http.createServer(function (request, response) {
+    console.log('request come', request.url)
 
     if (request.url === '/') {
         const html = fs.readFileSync('test.html', 'utf8')
-        if (host === 'test.com:8888') {
-            response.writeHead(200, {
-                'Content-Type': 'text/html',
-                'Set-Cookie': ['id=123; max-age=2222','abc=456;max-age=2222;domain=test.com:8888']
-            })
-        }
+        response.writeHead(200, {
+            'Content-Type': 'text/html',
+           //  'Content-Security-Policy-Report-Only': 'script-src \'self\'; form-action \'self\'; report-uri /report'
+        })
         response.end(html)
+    } else {
+        response.writeHead(200, {
+            'Content-Type': 'application/javascript'
+        })
+        response.end('console.log("loaded script")')
     }
-
-
-
-
 }).listen(8888)
 
-console.log('server listening 88888')
+console.log('server listening on 8888')

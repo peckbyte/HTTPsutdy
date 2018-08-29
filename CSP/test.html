@@ -2,12 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self'; form-action 'self';">
     <title>Title</title>
 </head>
 <body>
-<div>try CORS</div>
+<div> this is content </div>
+<form action="http://baidu.com">
+    <button type="submit">click me</button>
+</form>
 </body>
 <script>
-    console.log(document.cookie)
+    console.log("inline scripts ")
 </script>
+<script src="test.js"></script>
+<script src="https://cdn.bootcss.com/jquery/3.3.1/core.js"></script>
 </html>
