@@ -1,26 +1,16 @@
 const http = require('http')
 const fs = require('fs')
+const zlib = require('zlib')
+
 http.createServer(function (request, response) {
     console.log('request come', request)
 
-    const html = fs.readFileSync('test.html', 'utf8')
-    const img = fs.readFileSync('test.jpeg')
-    if (request.url === '/') {
+    const html = fs.readFileSync('test.html')
             response.writeHead(200, {
                 'Content-Type': 'text/html',
+                'Content-Encoding': 'gzip'
             })
-
-        response.end(html)
-    }  else {
-        response.writeHead(200, {
-            'Content-Type': 'img/jpeg',
-        })
-        response.end(img)
-    }
-
-
-
-
+        response.end(zlib.gzipSync(html))
 }).listen(8888)
 
 console.log('server listening 88888')
